@@ -30,8 +30,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=103477
 
 ### 8. Active Directory commands
 Extend the Active Directory schema
-.\Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
+- .\Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
 (This parameter enables sending data to Microsoft.)
-.\Setup.exe /IAcceptExchangeServerLicenseTerms_DiagnosticDataON /PrepareAD
-/OrganizationName: “ClickForBaby”
-.\Setup.exe /IAcceptExchangeServerLicenseTerms_DiagnosticDataON /PrepareAllDomains
+- .\Setup.exe /IAcceptExchangeServerLicenseTerms_DiagnosticDataON /PrepareAD /OrganizationName: “ClickForBaby”
+- .\Setup.exe /IAcceptExchangeServerLicenseTerms_DiagnosticDataON /PrepareAllDomains
