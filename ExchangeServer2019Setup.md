@@ -10,8 +10,8 @@ https://support.microsoft.com/en-us/topic/update-for-visual-c-2013-redistributab
 ### 4. Install URL Rewrite
 
 ### 5. Add the required Lync Server or Skype for Business Server components
-a. Install-WindowsFeature Server-Media-Foundation
-b. Install Unified Communications Managed API 4.0
+- Install-WindowsFeature Server-Media-Foundation
+- Install Unified Communications Managed API 4.0
 https://www.microsoft.com/en-us/download/details.aspx?id=34992
 
 ### 6. install the required Windows components
